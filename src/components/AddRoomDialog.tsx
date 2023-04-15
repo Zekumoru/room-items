@@ -38,6 +38,7 @@ const AddRoomDialog = ({ close }: AddRoomDialogProps) => {
         value={input}
         onChange={(e) => setInput(e.target.value)}
         className="w-full border-2 border-neutral-300 rounded px-2 py-1"
+        required
       />
 
       <div className="mt-2.5 flex gap-2 justify-end">
